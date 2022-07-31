@@ -11,6 +11,7 @@
 		89A96D0E289338FE00B22A3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A96D0D289338FE00B22A3B /* ContentView.swift */; };
 		89A96D10289338FF00B22A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A96D0F289338FF00B22A3B /* Assets.xcassets */; };
 		89A96D13289338FF00B22A3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A96D12289338FF00B22A3B /* Preview Assets.xcassets */; };
+		89A96D3728964BE600B22A3B /* PomodoroTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A96D3628964BE600B22A3B /* PomodoroTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		89A96D0D289338FE00B22A3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89A96D0F289338FF00B22A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89A96D12289338FF00B22A3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89A96D3628964BE600B22A3B /* PomodoroTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		89A96D0A289338FE00B22A3B /* Pomodoro Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				89A96D31289648DE00B22A3B /* Views */,
 				89A96D0B289338FE00B22A3B /* Pomodoro_TrackerApp.swift */,
 				89A96D0D289338FE00B22A3B /* ContentView.swift */,
 				89A96D0F289338FF00B22A3B /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				89A96D12289338FF00B22A3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89A96D31289648DE00B22A3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89A96D3628964BE600B22A3B /* PomodoroTimer.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A96D3728964BE600B22A3B /* PomodoroTimer.swift in Sources */,
 				89A96D0E289338FE00B22A3B /* ContentView.swift in Sources */,
 				89A96D0C289338FE00B22A3B /* Pomodoro_TrackerApp.swift in Sources */,
 			);

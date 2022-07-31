@@ -1,10 +1,3 @@
-//
-//  Pomodoro_TrackerApp.swift
-//  Pomodoro Tracker
-//
-//  Created by Ethan Silvas on 7/28/22.
-//
-
 import SwiftUI
 
 @main
